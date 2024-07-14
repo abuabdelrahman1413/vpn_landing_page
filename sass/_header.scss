@@ -1,0 +1,67 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+
+  & .logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    &-title {
+      font-weight: 500;
+      font-size: 2rem;
+      color: #0b132a;
+    }
+  }
+
+  & .nav {
+    &-list {
+      display: flex;
+      gap: 4rem;
+      align-items: center;
+
+      &--link {
+        &--item {
+          color: #4f5665;
+          transition: all 0.5s ease-out;
+          &:hover {
+            color: #f53855;
+          }
+        }
+      }
+    }
+  }
+  & .sign {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
+    &__link {
+      font-size: 1.6rem;
+      font-weight: 500;
+      color: #0b132a;
+      width: 10rem;
+      text-align: center;
+      transition: all 0.5s;
+      &:hover {
+        color: #f53855;
+      }
+    }
+
+    &__link--red {
+      color: #f53855;
+      border: 0.1rem solid #f53855;
+      border-radius: 5rem;
+      padding: 1rem 2rem;
+      width: 15rem;
+      text-align: center;
+      transition: all 0.5s;
+    }
+
+    &__link--red:hover {
+      color: #fff;
+      background-color: #f53855;
+    }
+  }
+}

@@ -1,0 +1,119 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  display: inline-block;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  border: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 4rem;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Rubik", sans-serif;
+  line-height: 1.3;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* End CSS Reset */
+/**End reset/
+
+/*Container*/
+.container {
+  max-width: 1440px;
+  height: 100vh;
+  padding: 5rem 15rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/*End container*/
+/*Header*/
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+}
+.header .logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.header .logo-title {
+  font-weight: 500;
+  font-size: 2rem;
+  color: #0b132a;
+}
+.header .nav-list {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+}
+.header .nav-list--link--item {
+  color: #4F5665;
+  transition: all 0.5s ease-out;
+}
+.header .nav-list--link--item:hover {
+  color: #f53855;
+}
+.header .sign {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.header .sign__link {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #0b132a;
+  width: 10rem;
+  text-align: center;
+  transition: all 0.5s;
+}
+.header .sign__link:hover {
+  color: #f53855;
+}
+.header .sign__link--red {
+  color: #f53855;
+  border: 0.1rem solid #f53855;
+  border-radius: 5rem;
+  padding: 1rem 2rem;
+  width: 15rem;
+  text-align: center;
+  transition: all 0.5s;
+}
+.header .sign__link--red:hover {
+  color: #fff;
+  background-color: #f53855;
+}
+
+/*End header*//*# sourceMappingURL=style.css.map */
